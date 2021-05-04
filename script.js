@@ -41,3 +41,7 @@ const quize_data = [{
         correct: "d",
     }
 ];
+
+let current_question = 0;
+
+loadQuiz();
