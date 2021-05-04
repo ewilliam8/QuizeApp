@@ -28,6 +28,10 @@ ul li {
     margin: 1rem 0;
 }
 
+ul li label {
+    cursor: pointer;
+}
+
 .quiz-container {
     background-color: #fff;
     border-radius: 15px;
@@ -54,5 +58,10 @@ button {
 }
 
 button:hover {
-    background-color: rgb(126, 194, 221);
+    background-color: #7ec2dd;
+}
+
+#score {
+    padding: 3rem;
+    text-align: center;
 }
